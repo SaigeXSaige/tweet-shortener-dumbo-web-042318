@@ -14,9 +14,10 @@ def dictionary
 end
 
 def word_substituter(tweets)
+  short_tweets = []
   tweets.split.collect do |word|
     if dictionary.keys.include?(word)
-      puts word
+      word.replace "#{dictionary.values}"
     end
   end
   
