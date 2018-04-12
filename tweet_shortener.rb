@@ -44,6 +44,8 @@ def selective_tweet_shortener(tweet)
   #binding.pry
 end
   
-def 
+def shortened_tweet_truncator
+  
+end
 
   
