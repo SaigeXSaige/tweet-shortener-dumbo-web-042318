@@ -29,3 +29,7 @@ def word_substituter(tweets)
   #binding.pry
 end
 
+def bulk_tweet_shortener(tweets)
+  
+end
+  
