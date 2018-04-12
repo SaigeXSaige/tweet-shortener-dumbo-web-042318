@@ -19,6 +19,7 @@ def word_substituter(tweets)
     if dictionary.keys.include?(word)
       word.replace "#{dictionary.values}"
     end
+    
   end
   
   binding.pry
