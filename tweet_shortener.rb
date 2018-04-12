@@ -16,20 +16,25 @@ def dictionary
   
 end
 
-def word_substituter(tweets)
+def word_substituter(tweet)
   short_tweets = []
-  tweets.split.each do |word|
+  tweet.split.each do |word|
     if dictionary.keys.include?(word)
       word.replace(dictionary[word])
     end
-    short_tweets << word
+    short_tweet << word
   end
   
-  short_tweets.join(" ")
+  short_tweet.join(" ")
   #binding.pry
 end
 
 def bulk_tweet_shortener(tweets)
+  short_tweets = []
+  tweets.each.do |tweet|
+    short_tweets << word_substituter(tweet)
+  end
   
+  short_tweets
 end
   
