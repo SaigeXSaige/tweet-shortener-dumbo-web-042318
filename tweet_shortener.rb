@@ -39,7 +39,7 @@ def selective_tweet_shortener(tweet)
   if tweet.size > 130
     word_substituter(tweet)
   else
-    tweet
+    return tweet
   end
   #binding.pry
 end
