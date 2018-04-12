@@ -25,6 +25,6 @@ def word_substituter(tweets)
     short_tweets << word
   end
   
-  puts short_tweets.join(" ")
-  binding.pry
+  short_tweets.join(" ")
+  #binding.pry
 end
