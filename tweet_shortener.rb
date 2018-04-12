@@ -44,8 +44,9 @@ def selective_tweet_shortener(tweet)
   #binding.pry
 end
   
-def shortened_tweet_truncator
-  
+def shortened_tweet_truncator(tweet)
+  if selective_tweet_shortener(tweet).size > 140
+    
 end
 
   
