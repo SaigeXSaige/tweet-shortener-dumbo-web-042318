@@ -28,3 +28,4 @@ def word_substituter(tweets)
   short_tweets.join(" ")
   #binding.pry
 end
+
