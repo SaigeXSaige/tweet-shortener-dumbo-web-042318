@@ -36,5 +36,5 @@ def bulk_tweet_shortener(tweets)
   end
   
   
-end
+
   
